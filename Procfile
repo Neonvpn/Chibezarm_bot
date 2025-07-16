@@ -1,1 +1,1 @@
-worker: python Chibezarm.py
+web: python Chibezarm.py
