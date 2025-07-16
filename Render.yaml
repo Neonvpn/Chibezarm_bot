@@ -1,7 +1,6 @@
 services:
-  - type: web
+  - type: worker
     name: chibezarmbot
     env: python
-    plan: free
-    buildCommand: ""
-    startCommand: "python main.py"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python Chibezarm.py"
